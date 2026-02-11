@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimple_detector.a CMakeFiles/simple_detector.dir/src/detector.cpp.o
+/usr/bin/ranlib libsimple_detector.a

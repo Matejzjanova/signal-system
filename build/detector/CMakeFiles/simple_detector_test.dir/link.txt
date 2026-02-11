@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/simple_detector_test.dir/test/test.cpp.o -o simple_detector_test  libsimple_detector.a /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libgmock.a /usr/lib/x86_64-linux-gnu/libgtest_main.a -lfftw3 /usr/lib/x86_64-linux-gnu/libgtest.a 

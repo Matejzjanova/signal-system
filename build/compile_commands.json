@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/misha/Projects/signalSystem/build/detector",
+  "command": "/usr/bin/c++  -I/home/misha/Projects/signalSystem/detector/include  -o CMakeFiles/simple_detector.dir/src/detector.cpp.o -c /home/misha/Projects/signalSystem/detector/src/detector.cpp",
+  "file": "/home/misha/Projects/signalSystem/detector/src/detector.cpp",
+  "output": "detector/CMakeFiles/simple_detector.dir/src/detector.cpp.o"
+},
+{
+  "directory": "/home/misha/Projects/signalSystem/build/detector",
+  "command": "/usr/bin/c++  -I/home/misha/Projects/signalSystem/detector/include -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/simple_detector_test.dir/test/test.cpp.o -c /home/misha/Projects/signalSystem/detector/test/test.cpp",
+  "file": "/home/misha/Projects/signalSystem/detector/test/test.cpp",
+  "output": "detector/CMakeFiles/simple_detector_test.dir/test/test.cpp.o"
+},
+{
+  "directory": "/home/misha/Projects/signalSystem/build/sdr-and-transfer-ifacess/sdr_emulator",
+  "command": "/usr/bin/c++  -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_emulator/include/sdr_emulator -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_rf_interface/include -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/transfer_interface/include -std=gnu++20 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/emulator_test.dir/test/test.cpp.o -c /home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_emulator/test/test.cpp",
+  "file": "/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_emulator/test/test.cpp",
+  "output": "sdr-and-transfer-ifacess/sdr_emulator/CMakeFiles/emulator_test.dir/test/test.cpp.o"
+},
+{
+  "directory": "/home/misha/Projects/signalSystem/build/sdr-and-transfer-ifacess/sdr_emulator",
+  "command": "/usr/bin/c++  -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_emulator/include/sdr_emulator -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_rf_interface/include -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/transfer_interface/include -std=gnu++20 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/emulator_test.dir/src/sdr_emulator/sdr_emulator.cpp.o -c /home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_emulator/src/sdr_emulator/sdr_emulator.cpp",
+  "file": "/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_emulator/src/sdr_emulator/sdr_emulator.cpp",
+  "output": "sdr-and-transfer-ifacess/sdr_emulator/CMakeFiles/emulator_test.dir/src/sdr_emulator/sdr_emulator.cpp.o"
+},
+{
+  "directory": "/home/misha/Projects/signalSystem/build/sdr-and-transfer-ifacess/rtlsdr_control",
+  "command": "/usr/bin/c++  -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/rtlsdr_control/include/rtlsdr_control -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_rf_interface/include -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/transfer_interface/include -std=gnu++20 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/rtlsdr_control.dir/src/rtlsdr_control/rtlsdr_control.o -c /home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/rtlsdr_control/src/rtlsdr_control/rtlsdr_control.cpp",
+  "file": "/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/rtlsdr_control/src/rtlsdr_control/rtlsdr_control.cpp",
+  "output": "sdr-and-transfer-ifacess/rtlsdr_control/CMakeFiles/rtlsdr_control.dir/src/rtlsdr_control/rtlsdr_control.o"
+},
+{
+  "directory": "/home/misha/Projects/signalSystem/build/sdr-and-transfer-ifacess/rtlsdr_control",
+  "command": "/usr/bin/c++  -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/rtlsdr_control/include/rtlsdr_control -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_rf_interface/include -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/transfer_interface/include -std=gnu++20 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/rtlsdr_test.dir/test/test.o -c /home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/rtlsdr_control/test/test.cpp",
+  "file": "/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/rtlsdr_control/test/test.cpp",
+  "output": "sdr-and-transfer-ifacess/rtlsdr_control/CMakeFiles/rtlsdr_test.dir/test/test.o"
+},
+{
+  "directory": "/home/misha/Projects/signalSystem/build/system",
+  "command": "/usr/bin/c++  -I/home/misha/Projects/signalSystem/system/include -I/home/misha/Projects/signalSystem/detector/include -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/rtlsdr_control/include/rtlsdr_control -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/sdr_rf_interface/include -I/home/misha/Projects/signalSystem/sdr-and-transfer-ifacess/transfer_interface/include -std=gnu++20 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/system_server.dir/src/system.o -c /home/misha/Projects/signalSystem/system/src/system.cpp",
+  "file": "/home/misha/Projects/signalSystem/system/src/system.cpp",
+  "output": "system/CMakeFiles/system_server.dir/src/system.o"
+}
+]
