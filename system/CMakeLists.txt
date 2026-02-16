@@ -11,7 +11,7 @@ target_include_directories(system_server PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/include/
 )
 
-target_link_libraries(system_server PUBLIC nlohmann_json_LIBRARIES)
+target_link_libraries(system_server PUBLIC ${nlohmann_json_LIBRARIES})
 target_link_libraries(system_server_test PRIVATE
         GTest::gtest GTest::gmock GTest::gtest_main )
 target_link_libraries(system_server PUBLIC simple_detector rtlsdr_control)

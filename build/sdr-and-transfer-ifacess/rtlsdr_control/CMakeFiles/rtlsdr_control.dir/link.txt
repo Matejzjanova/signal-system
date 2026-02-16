@@ -1,2 +1,0 @@
-/usr/bin/ar qc librtlsdr_control.a CMakeFiles/rtlsdr_control.dir/src/rtlsdr_control/rtlsdr_control.o
-/usr/bin/ranlib librtlsdr_control.a

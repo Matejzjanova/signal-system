@@ -26,13 +26,13 @@ SignalSystem::scanPartOfSpectrum(uint64_t startFreqInMHz,
   if (startFreqInMHz == stopFreqInMHz && stopFreqInMHz < startFreqInMHz) {
     throw std::runtime_error("wrong freqs");
   }
-  TransferParams params(1, TransferParams::Type::single, sampleRate * 1000000,
-                        sampleRate * 1000000);
+  TransferParams params(1, TransferParams::Type::single, sampleRate,
+                        sampleRate);
 
-  sdrRf->setSampleRate(sampleRate * 1000000);
+  sdrRf->setSampleRate(sampleRate);
   int count = (stopFreqInMHz - startFreqInMHz) / sampleRate;
   uint64_t currentCentralFreq = startFreqInMHz + sampleRate / 2;
-  sdrTransfer->setParam(params);
+  sdrTransfer->setParams(params);
 
   for (int i = 0; i != count; i++) {
     sdrRf->setFrequency(currentCentralFreq);

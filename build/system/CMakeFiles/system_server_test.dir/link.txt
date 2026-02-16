@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic -o system_server_test  /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libgmock.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a -lThreads::Threads 

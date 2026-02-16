@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/rtlsdr_test.dir/test/test.o -o rtlsdr_test   -L/home/misha/Projects/signalSystem/build/sdr-and-transfer-ifacess/rtlsdr_control  librtlsdr_control.a /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libgmock.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a -lrtlsdr -lpthread 

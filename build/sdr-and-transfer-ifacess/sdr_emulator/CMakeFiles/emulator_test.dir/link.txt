@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/emulator_test.dir/test/test.cpp.o CMakeFiles/emulator_test.dir/src/sdr_emulator/sdr_emulator.cpp.o -o emulator_test  -lpthread /usr/lib/x86_64-linux-gnu/libgmock.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a 
